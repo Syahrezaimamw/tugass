@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export default function Log() {
   return (
     <div>
-        <Link to='/tugass/login'>klik</Link>
+        <Link to='/tugass/login'>klikk</Link>
     </div>
   )
 }

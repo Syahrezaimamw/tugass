@@ -19,7 +19,7 @@ const router=createBrowserRouter([
     {/* <Router> */}
      <Routes >
         <Route exact path="/tugass" element={<Log/>} />
-        <Route exact path="/tugass/login" element={<Log/>} />
+        <Route exact path="/login" element={<Log/>} />
         <Route exact path="/sec" element={<Sec/>} />
         <Route exact path='/*' element={<Eror/>} />
         </Routes>

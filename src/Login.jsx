@@ -1,20 +1,22 @@
 import React from 'react'
 import './all.css'
+import Logo from '../src/image/Logo.png'
+import LogoBulet from '../src/image/logoBulet.png'
 export default function Login() {
     return (
         <div className='containerLogin'>
             <div className="logoLogin">
                 <div className="logoIpsum">
                     <div className="wrapperLogoIpsum">
-
-                        <img src="./images/Logo.png" alt="" style={{
+                        <img src={Logo} alt="" style={{
                         width:110,
-                    }} />
+                    }}/>
+                     
                     </div>
                 </div>
                 <div className="tengah">
                 <div className="logoBulet">
-                    <img src="./images/logoBulet.png" alt="" style={{
+                    <img src={LogoBulet} alt="" style={{
                         width:'75%',
                     }}/>
                 </div>

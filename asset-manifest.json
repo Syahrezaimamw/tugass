@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tugass/static/css/main.c762449e.css",
-    "main.js": "/tugass/static/js/main.f3058f87.js",
+    "main.js": "/tugass/static/js/main.d7ba4fc7.js",
     "static/media/logoBulet.png": "/tugass/static/media/logoBulet.c15e4656293d20990c08.png",
     "index.html": "/tugass/index.html",
     "main.c762449e.css.map": "/tugass/static/css/main.c762449e.css.map",
-    "main.f3058f87.js.map": "/tugass/static/js/main.f3058f87.js.map"
+    "main.d7ba4fc7.js.map": "/tugass/static/js/main.d7ba4fc7.js.map"
   },
   "entrypoints": [
     "static/css/main.c762449e.css",
-    "static/js/main.f3058f87.js"
+    "static/js/main.d7ba4fc7.js"
   ]
 }

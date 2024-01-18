@@ -15,10 +15,10 @@ const router=createBrowserRouter([
 ])
   return (
     <div>
-    <BrowserRouter>
+    <BrowserRouter basename='/interview'>
     {/* <Router> */}
      <Routes >
-        <Route exact path="/" element={<Log/>} />
+        <Route exact path="/interview" element={<Log/>} />
         <Route exact path="/about" element={<Log/>} />
         <Route exact path="/sec" element={<Sec/>} />
         <Route exact path='/*' element={<Eror/>} />

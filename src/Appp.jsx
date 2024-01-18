@@ -5,6 +5,7 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import Log from './Log';
 import Eror from './Eror';
 import Sec from './Sec';
+import Login from './Login';
 export default function Appp() {
 const router=createBrowserRouter([
   {
@@ -19,7 +20,7 @@ const router=createBrowserRouter([
     {/* <Router> */}
      <Routes >
         <Route exact path="/tugass" element={<Log/>} />
-        <Route exact path="/login" element={<Log/>} />
+        <Route exact path="/login" element={<Login/>} />
         <Route exact path="/sec" element={<Sec/>} />
         <Route exact path='/*' element={<Eror/>} />
         </Routes>

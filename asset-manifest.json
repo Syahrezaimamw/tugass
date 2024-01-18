@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/tugass/static/js/main.3b44818e.js",
+    "main.css": "/tugass/static/css/main.c762449e.css",
+    "main.js": "/tugass/static/js/main.027a451a.js",
     "index.html": "/tugass/index.html",
-    "main.3b44818e.js.map": "/tugass/static/js/main.3b44818e.js.map"
+    "main.c762449e.css.map": "/tugass/static/css/main.c762449e.css.map",
+    "main.027a451a.js.map": "/tugass/static/js/main.027a451a.js.map"
   },
   "entrypoints": [
-    "static/js/main.3b44818e.js"
+    "static/css/main.c762449e.css",
+    "static/js/main.027a451a.js"
   ]
 }

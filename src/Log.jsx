@@ -9,6 +9,7 @@ export default function Log() {
         <br />
         <Link to='/tugass/aboutUs'>aboutk</Link>
         <br />
+        hai
         <Link to='/tugass/home'>home</Link>
     </div>
   )

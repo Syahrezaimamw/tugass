@@ -6,6 +6,8 @@ import Log from './Log';
 import Eror from './Eror';
 import Sec from './Sec';
 import Login from './Login';
+import About from './About';
+import Home from './Home';
 export default function Appp() {
 const router=createBrowserRouter([
   {
@@ -22,7 +24,9 @@ const router=createBrowserRouter([
         <Route exact path="/tugass" element={<Log/>} />
         <Route exact path="/tugass/login" element={<Login/>} />
         <Route exact path="/tugass/sec" element={<Sec/>} />
-        <Route exact path='/*' element={<Eror/>} />
+        <Route exact path='/tugass/*' element={<Eror/>} />
+        <Route exact path='/tugass/aboutUs' element={<About/>} />
+        <Route exact path='/tugass/home' element={<Home/>} />
         </Routes>
 
       

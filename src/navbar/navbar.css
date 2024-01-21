@@ -1,0 +1,120 @@
+
+.containerNavbar{
+    width: 100vw;
+    height: 80px;
+
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.wrapperNavbar{
+    width: 73%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navTengah{
+    width: fit-content;
+}
+.navTengah ul{
+    width: fit-content;
+    list-style: none;
+margin: 0px;
+
+padding: 0px;
+    display: flex;
+}
+
+
+.navTengah ul li{
+    padding: 0px 17px;
+   cursor: pointer;
+}
+.navTengah .putih li a{
+    color: rgb(225, 225, 225);
+}
+.navTengah .putih li span a{
+    color: white;
+}
+.navTengah li span a{
+    font-weight: 600;
+    color: black;
+}
+.navTengah li a{
+    font-size: 15px;
+    color: #4F5665;
+    position: relative;
+    text-decoration: none;
+}
+.navTengah li a::before{
+    content: "";
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: -5px;
+    left: 0px;
+    
+    height: 2.5px;
+    background-color: transparent;
+}
+
+.navTengah li:hover a::before{
+    background-color: #2161D5;
+    animation: gerak 0.2s;
+}
+.navTengah .putih li:hover a::before{
+    background-color: white;
+    animation: gerak 0.2s;
+}
+@keyframes gerak {
+    0%{
+        width: 0%;
+    }100%{
+        width: 100%;
+    }
+    
+}
+.navAkhir,.navAkhirP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    height: fit-content;
+}
+.navAkhir h4:hover{
+    color: #2161D5;
+    cursor: pointer;
+
+}
+.navAkhirP h4:hover{
+    color: rgb(225, 225, 225);
+    cursor: pointer;
+
+}
+.navAkhirP h4{
+    color: white;
+}
+.navAkhir button{
+    background-color: white;
+    margin-left: 20px;
+    border: 1px solid #2161D5;
+}
+.navAkhirP button{
+    margin-left: 20px;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+
+}
+.navAkhir button:hover{
+    background-color: #2161D5;
+    color: white;
+    box-shadow: 0px 0px 5px #2161D5;
+   
+}
+.navAkhirP button:hover{
+    background-color: white;
+    color: #2161D5;
+    box-shadow: 0px 0px 5px white;
+}

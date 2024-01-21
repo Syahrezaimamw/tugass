@@ -1,0 +1,28 @@
+.butonRl{
+ 
+    color: 
+    #2161D5;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+/* .butonBr{
+    background-color: #2161D5;
+    border: 1px solid #2161D5;
+    color: 
+    white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.butonBr:hover{
+    background-color: #2161D5;
+    color: white;
+    box-shadow: 0px 0px 5px #2161D5;
+} */

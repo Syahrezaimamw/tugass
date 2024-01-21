@@ -1,14 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,700;1,800&display=swap');
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
     margin: 0px;
     padding: 0px;
+    /* font-family: 'Rubik', sans-serif; */
     font-family: 'Poppins', sans-serif;
+
+    overflow-x: hidden;
 }
 
 h3,
 p,
-h2 {
+h2,h1 {
 
     margin: 0px;
 }
@@ -113,7 +119,6 @@ p {
 .menuLogin {
     width: 70%;
     height: 100%;
-    /* background-color: aqua; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,7 +131,6 @@ p {
 
 .welcome {
     width: 100%;
-    /* background-color: red; */
 }
 .welcome p{
     font-size: 14px;
@@ -160,7 +164,6 @@ label span {
     border: 1px solid rgb(206, 205, 205);
     font-size: 17px;
     margin-top: 4px;
-    /* background-color: red; */
 }
 
 .chek{
@@ -180,16 +183,21 @@ label span {
     font-size: 12px;
     color: #4F5665;
 }
-button{
+.containerLogin button{
     margin-top: 30px;
     width: 100%;
     height: 45px;
     border-radius: 5px;
     border: none;
     background-color: #2161D5;
+    cursor: pointer;
+    text-decoration: none;
     font-weight: 700;
     color: white;
-    cursor: pointer;
+}
+.containerLogin button a{
+display: block;
+
 }
 button:active{
     transform: scale(0.98);
@@ -197,3 +205,239 @@ button:active{
 /* input[type="checkbox"] {
     background: #990000;    
 } */
+
+.containerEror{
+    width: 100VW;
+    height: calc(100vh - 85px);
+    /* background-color: red; */
+    display: flex;
+    justify-content: center
+}
+.wrapperEror{
+    width: 77%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+.pesanEror,.gambarEror{
+    height: 100%;
+    /* border: 1px solid black; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.pesanEror{
+
+    justify-content: center ;
+}
+.textEror h2{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.textEror p{
+
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 25px
+    ;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.textEror button{
+    background-color: #2161D5;
+    border: 1px solid #2161D5;
+    color: 
+    white;
+}
+.textEror button:hover{
+    background-color: #2161D5;
+    color: white;
+    box-shadow: 0px 0px 5px #2161D5;
+} 
+.gambarEror img{
+    width: 90%;
+}
+/* .About */
+.containerAbout{
+    width: 100vw;
+    height: 90vh;
+    background-color: #2161D5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../src/image/bgBulet.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y:-10px ;
+    
+    background-size: 55%;
+}
+.wrapperAbout{
+    width: 51%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textAbout{
+    width: 68%;
+    height: 300px;
+    text-align: center;
+}
+.textAbout h1{
+    color: white;
+    font-size: 40px;
+}
+.textAbout p{
+    font-size: 14px;
+    color: 
+    #e7e6e6;
+    line-height: 27px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+.textAbout button{
+    border-color:white ;
+    padding: 14px 66px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+.textAbout button:hover{
+    box-shadow: 0px 0px 8px white;
+}
+.quotes{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+}
+.quotes .kotak{
+    position: absolute;
+    width: 100px;
+    right: 0px;
+    top: calc(100% /2.5);
+}
+.wrapperQuotes{
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column; align-items: center;
+}
+.wrapperQuotes .tulis{
+    width: 66%;
+    text-align: center;
+    color: #4F5665;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.wrapperQuotes .tulis p{
+    line-height: 25px;
+    margin-top: 30px;
+}
+.wrapperQuotes img{
+    width: 5%;
+}
+.containerAdvisor{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+.wrapperAdvisor
+{
+    margin-top: 130px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+.wrapperAdvisor h1{font-weight: 600;text-align: center;}
+
+.advisor{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.advisor img{
+    width: 230px;
+}
+
+.containerPolitical{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.wrapperPolitical{
+    width: 70%;
+}
+.ktrPolitical{
+    text-align: center;
+    margin-top: 100px;
+}
+.ktrPolitical h2{
+    font-weight: 600;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+.profilePolitik{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    width: 100%;
+    margin-top: 53px;
+    justify-content: space-between;
+}
+.isiPolitik{
+    height: 150px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    width: 290px;
+    background-color: white;
+    box-shadow: 0px 0px 4px #c1c1c2;
+}
+.gambarPolitik{
+    width: 100%;
+    height: 50px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+.gambarPolitik img{
+    width: 40px;
+}
+.namaTokoh{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: red; */
+    height: 100%;
+}
+.namaTokoh .nama{
+    margin: 0px;
+    font-size: 14px;    
+    color: black;
+    font-weight: 600;
+}
+.profilePolitik .desk{
+    margin: 0px;
+    font-size: 10px;
+    font-weight: 500;
+    /* color: red; */
+}
+.vcl{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-top: 7px;
+}

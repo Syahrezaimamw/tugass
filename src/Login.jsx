@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './all.css'
 import Logo from '../src/image/Logo.png'
 import LogoBulet from '../src/image/logoBulet.png'
@@ -54,9 +55,11 @@ export default function Login() {
                        
                     </form>
                     </div>
-                    <button>
-                        Log in
-                    </button>
+                    {/* <button> */}
+                        <Link to='/tugass/'>
+                            <button>Login</button>
+                        </Link>
+                    {/* </button> */}
 
                 </div>
                 

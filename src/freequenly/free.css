@@ -1,0 +1,93 @@
+.containerFree{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.wrapperFree{
+    width: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapperFree h2{
+    font-size:28px;
+    margin-top: 70px;
+}
+.Ques{
+    width: 60%;
+    margin-top: 45px;
+}
+.dataQues{
+    width: 100%;
+    text-align: left;
+    height: 60px;
+    border-radius: 3px;
+box-shadow: 0px 0px 3px #b1b0b0;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+.dataQuesDom{
+    height: 157px;
+}
+.handleQues{
+    height: 60px;
+    width:92% ;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.handleQues p{
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+}
+ .pD{
+    margin-left: 4%;
+    font-weight: 500;
+    font-size: 0px;
+    transition: 0.3s;
+    color: white;
+    line-height: 25px;
+}
+.tulisanDom{
+    color: #4F5665;
+    font-size: 12px;
+    color: #4F5665;
+    
+}
+.ganti:hover{
+    color: #2161D5;
+}
+.i:active{
+    color: #2161D5;
+    transform: rotate(370deg);
+}
+.ganti{
+    transition: 1s;
+    font-size: 28px;
+    cursor: pointer;
+    margin: 0px;
+    font-weight: 400;
+    color: black;
+}
+.klikDom{
+    color: #2161D5;
+}
+.handleQues .warnaDom{
+    color: #2161D5;
+
+}
+.wrapperFree button{
+    font-size: 13px;
+    font-weight: 700;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px 30px;
+    border: 2px solid #2161D5;
+}
+.wrapperFree button:hover{
+    box-shadow: 0px 0px 5px #2161D5;
+}

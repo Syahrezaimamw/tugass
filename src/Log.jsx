@@ -4,7 +4,12 @@ export default function Log() {
   return (
     <div>
         <Link to='/tugass/login'>klikk</Link>
-        <Link to='/tugass/sec'>klikk</Link>
+        <br />
+        <Link to='/tugass/*'>klikk</Link>
+        <br />
+        <Link to='/tugass/aboutUs'>aboutk</Link>
+        <br />
+        <Link to='/tugass/home'>home</Link>
     </div>
   )
 }

@@ -1,0 +1,560 @@
+.containerHome {
+    width: 100vw;
+    height: 90vh;
+
+}
+
+.works,
+.containerOverview,
+.containerPlans {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapperHome1 {
+    width: 100%;
+    height: 79vh;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapHome {
+    width: 73%;
+    height: 100%;
+    display: flex;
+}
+
+.textHome,
+.gambarHome {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.textHome h1 {
+    font-size: 47px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.textHome span {
+    font-weight: 700;
+}
+
+.textHome p {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+.textHome button {
+    border:1px solid #2161D5;
+    background-color: #2161D5;
+    color: white;
+    padding: 13px 35px;
+    border-radius: 27px;
+    box-shadow: 20px 10px 25px #99b7f0;
+    font-size: 15px;
+}
+
+.textHome button:hover {
+    /* box-shadow: 0px 0px 25px #689af6; */
+
+}
+
+.Chouse {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 170px;
+
+}
+
+.txtChouse {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.txtChouse p {
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.kotakChouse {
+    width: 65%;
+    margin-top: 80px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.dataKotak {
+    height: 250px;
+    width: 240px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px rgb(184, 182, 182);
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #f7faff;
+    padding: 20px;
+
+}
+
+.dataKotak:hover {
+
+    box-shadow: 0px 0px 7px #1650ba;
+    border: 2px solid #2161D5;
+}
+
+.dataKotak:nth-child(1) {
+    border: 2px solid #2161D5;
+}
+
+.dataKotak .st {
+    display: flex;
+    margin-top: 30px;
+    align-items: start;
+    height: 70px;
+}
+
+.dataKotak img {
+
+    width: 60px;
+
+}
+
+.dataKotak:nth-child(2) img {
+    width: 74px;
+    margin: 0px;
+}
+
+.kotakChouse .judull {
+    color: black;
+    font-size: 17px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.kotakChouse .isiCh {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.Chouse button {
+    border: 1px solid #2161D5;
+    background-color: white;
+    font-size: 14px;
+    padding: 12px 40px;
+    border-radius: 32px;
+    margin-top: 60px;
+}
+
+.Chouse button:hover {
+    box-shadow: 0px 0px 10px;
+}
+
+.containerOverview {
+    position: relative;
+    background-color: #2161D5;
+
+}
+
+.imgElement {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    width: 85px;
+    height: 88px;
+}
+
+.wrapperOverview {
+    width: 70%;
+    height: 100%;
+}
+
+.groyp1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pre1 {
+    width: 45%;
+
+    height: 100%;
+
+}
+
+.pre11 {
+    height: 100%;
+    width: 55%;
+}
+
+.pre2 {
+    width: 100%;
+  
+
+    position: relative;
+}
+
+.gambarPre {
+
+    width: 100%;
+    height: 84%;
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+}
+
+.back1 {
+    width: 65%;
+    height: 100%;
+
+}
+
+.pre1 .pre2 .obj1 {
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    right: 100px;
+    top: -80px;
+}
+
+.pre1 .pre3 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.pre11 .pre3 {
+    width: 110%;
+    background-image: url(../src/image/pre32.png);
+    background-size: 320px 440px;
+    background-size: 57% 97%;
+    background-position: right;
+    background-position-x: calc(100%/1.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    /* background-color: red; */
+}
+
+.pre11 .pre3 img {
+    margin-left: 10%;
+    margin-top: 25px;
+    width: 60%;
+}
+
+.pre11 .pre2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pre3 {
+    width: 100%;
+}
+
+.pre13 {
+    width: 100%;
+    margin-top: 60px;
+    height: 500px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.pre4 {
+    width: 38%;
+    height: 90%;
+    background-image: url(../src/image/baru.png);
+    background-size: 83%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+
+}
+
+.pre4 img {
+    width: 100%;
+    margin-top: 18%;
+    margin-left: 10px;
+}
+
+.containerOverview .wrapperOverview .pre42 {
+    height: 90%;
+    width: 55%;
+    
+}
+
+.tg {
+    height: 500px;
+}
+
+.pd {
+    height: 400px;
+}
+
+.textOverview {
+    width: fit-content;
+    color: white;
+
+}
+.pre42 .textOverview{
+    margin-bottom: 100px;
+    width: fit-content;
+}
+
+.textOverview h2 {
+    font-size: 29px;
+    font-weight: 600;
+
+}
+
+.textOverview p {
+    color:
+        #eceaea;
+    font-size: 12px;
+    line-height: 28px;
+    margin: 16px 0px;
+}
+.pre11 .pd{
+
+}
+.textOverview button {
+    background-color: #2161D5;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    box-shadow: none;
+    border: 1px solid white;
+}
+
+.textOverview button:hover {
+    box-shadow: 0px 0px 10px white;
+}
+
+.pre13 .pre42 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* == */
+.wrpapperWorks {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.textWorks {
+    width: 50%;
+    text-align: center;
+}
+
+.textWorks h2,
+.deskPlans h2 {
+    font-size: 28px;
+}
+
+.textWorks p,
+.deskPlans p {
+    font-size: 13px;
+    font-weight: 500;
+    margin: 25px 0px;
+    line-height: 25px;
+}
+
+.textWorks button {
+    border:2px solid #2161D5;
+    background-color: #2161D5;
+    color: white;
+    padding: 13px 35px;
+    border-radius: 27px;
+    box-shadow: 20px 10px 25px #99b7f0;
+    font-size: 15px;
+}
+
+.gambarWorks {
+    width: 89%;
+    margin-top: 50px;
+    display: flex;
+    gap: 54px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.isiGm {
+    border-radius: 10px;
+    width: 370px;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgb(139, 139, 139);
+}
+
+.isiGm:hover {
+    box-shadow: 0px 0px 10px rgb(111, 110, 110) ;
+
+}
+
+.gmGambar {
+    width: 70%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 25px;
+}
+
+.gmGambar img {
+    width: 85%;
+}
+
+.textGmWorks {
+    text-align: center;
+    width: 80%;
+
+}
+
+.textGmWorks h3 {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.textGmWorks p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.containerPlans {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.wrapperPlans {
+    width: 50%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deskPlans {
+    text-align: center;
+}
+
+.deskPlans h2 {
+    font-size: 27px;
+}
+
+.gambarPlans {
+    width: 82%;
+    margin-top: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.gambarPlans .plansSell:nth-child(2){
+border: 2px solid #2161D5;
+}
+
+.plansSell {
+    width: 280px;
+    border-radius: 10px;
+    height: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px #d2d3d5;
+}
+
+.wrapPLansSel {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 85%;
+}
+
+.gambarHadiah {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: start;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.satuPlans h5 {
+    text-align: center;
+}
+
+.satuPlans li img {
+    margin-right: 31px;
+    width: 21px;
+}
+
+.satuPlans li {
+    margin-bottom: 10px;
+    font-size: 12px;
+    display: flex;
+    font-weight: 500;
+    color: #4F5665;
+    align-items: center;
+}
+.duaPlans{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.duaPlans h3{
+margin-bottom: 15px;
+font-size: 20px;
+font-weight: 600;
+}
+.duaPlans span{
+font-size: 17px;
+color: #4F5665;
+font-weight: 500;
+}
+.duaPlans button{
+padding: 8px 44px;
+font-size: 14px;
+border: 2px solid #2161D5;
+background-color: white;
+}
+.plansSell:nth-child(2) button{
+background-color: #2161D5;
+color: white;
+box-shadow: 0px 5px 15px #4276d6 ;
+
+}

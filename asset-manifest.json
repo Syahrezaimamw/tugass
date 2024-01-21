@@ -1,14 +1,32 @@
 {
   "files": {
-    "main.css": "/tugass/static/css/main.c762449e.css",
-    "main.js": "/tugass/static/js/main.d7ba4fc7.js",
+    "main.css": "/tugass/static/css/main.32f49174.css",
+    "main.js": "/tugass/static/js/main.12e66991.js",
+    "static/media/ktkpre21.png": "/tugass/static/media/ktkpre21.c3867c425acd680dad90.png",
+    "static/media/404.png": "/tugass/static/media/404.1777173f5f4e6ecc4334.png",
+    "static/media/home.png": "/tugass/static/media/home.76fc02b1de053d67c63b.png",
+    "static/media/rafiki.png": "/tugass/static/media/rafiki.aca60dfb08018498231c.png",
+    "static/media/Member 3.png": "/tugass/static/media/Member 3.aae6c3b3206e7748c2d1.png",
+    "static/media/Member 2 (1).png": "/tugass/static/media/Member 2 (1).03e42ab91cb09f9cf75c.png",
+    "static/media/Member 2.png": "/tugass/static/media/Member 2.e0504d43af81a797ae73.png",
+    "static/media/ktkpre31.png": "/tugass/static/media/ktkpre31.932c6b29bdeb46c9b1d7.png",
+    "static/media/pre32.png": "/tugass/static/media/pre32.47f1a136bfdfab7aed48.png",
+    "static/media/pre21.png": "/tugass/static/media/pre21.608aef59066aa4abe4fc.png",
     "static/media/logoBulet.png": "/tugass/static/media/logoBulet.c15e4656293d20990c08.png",
+    "static/media/bgBulet.png": "/tugass/static/media/bgBulet.bfe15ccf33e16a7a84e1.png",
+    "static/media/rafiki4.png": "/tugass/static/media/rafiki4.b0c788338364d04e578d.png",
+    "static/media/rafiki3.png": "/tugass/static/media/rafiki3.1fcb75b053c2fbfeb415.png",
+    "static/media/hadiah.png": "/tugass/static/media/hadiah.5221fa171674b70cb617.png",
+    "static/media/rafiki2.png": "/tugass/static/media/rafiki2.521bc0b25e52fc8b5aa2.png",
+    "static/media/pre24.png": "/tugass/static/media/pre24.65bd94514288ddba3109.png",
+    "static/media/baru.png": "/tugass/static/media/baru.7586e29518dc4a0d8551.png",
+    "static/media/hm.png": "/tugass/static/media/hm.87198ca376d8478a59da.png",
     "index.html": "/tugass/index.html",
-    "main.c762449e.css.map": "/tugass/static/css/main.c762449e.css.map",
-    "main.d7ba4fc7.js.map": "/tugass/static/js/main.d7ba4fc7.js.map"
+    "main.32f49174.css.map": "/tugass/static/css/main.32f49174.css.map",
+    "main.12e66991.js.map": "/tugass/static/js/main.12e66991.js.map"
   },
   "entrypoints": [
-    "static/css/main.c762449e.css",
-    "static/js/main.d7ba4fc7.js"
+    "static/css/main.32f49174.css",
+    "static/js/main.12e66991.js"
   ]
 }

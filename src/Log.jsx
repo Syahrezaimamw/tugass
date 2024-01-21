@@ -10,7 +10,7 @@ export default function Log() {
         <Link to='/tugass/aboutUs'>aboutk</Link>
         <br />
         hai
-        <Link to='/tugass/home'>home</Link>
+        <Link to='/tugass/home/home:1'>home</Link>
     </div>
   )
 }

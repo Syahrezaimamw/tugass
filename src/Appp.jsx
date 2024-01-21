@@ -26,7 +26,7 @@ const router=createBrowserRouter([
         <Route exact path="/tugass/sec" element={<Sec/>} />
         <Route exact path='/tugass/*' element={<Eror/>} />
         <Route exact path='/tugass/aboutUs' element={<About/>} />
-        <Route exact path='/tugass/home' element={<Home/>} />
+        <Route exact path='/tugass/home/home:1' element={<Home/>} />
         </Routes>
 
       

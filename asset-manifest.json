@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tugass/static/css/main.32f49174.css",
-    "main.js": "/tugass/static/js/main.40478858.js",
+    "main.css": "/tugass/static/css/main.038e254b.css",
+    "main.js": "/tugass/static/js/main.3fc07c8c.js",
     "static/media/ktkpre21.png": "/tugass/static/media/ktkpre21.c3867c425acd680dad90.png",
     "static/media/404.png": "/tugass/static/media/404.1777173f5f4e6ecc4334.png",
     "static/media/home.png": "/tugass/static/media/home.76fc02b1de053d67c63b.png",
@@ -12,21 +12,28 @@
     "static/media/ktkpre31.png": "/tugass/static/media/ktkpre31.932c6b29bdeb46c9b1d7.png",
     "static/media/pre32.png": "/tugass/static/media/pre32.47f1a136bfdfab7aed48.png",
     "static/media/pre21.png": "/tugass/static/media/pre21.608aef59066aa4abe4fc.png",
+    "static/media/pendudukdusun.png": "/tugass/static/media/pendudukdusun.3cbcd2bd8fb7a0481d67.png",
     "static/media/logoBulet.png": "/tugass/static/media/logoBulet.c15e4656293d20990c08.png",
     "static/media/bgBulet.png": "/tugass/static/media/bgBulet.bfe15ccf33e16a7a84e1.png",
+    "static/media/prasarana.png": "/tugass/static/media/prasarana.94c777216b656fe40fe2.png",
     "static/media/rafiki4.png": "/tugass/static/media/rafiki4.b0c788338364d04e578d.png",
     "static/media/rafiki3.png": "/tugass/static/media/rafiki3.1fcb75b053c2fbfeb415.png",
+    "static/media/jmlhPendudukk.png": "/tugass/static/media/jmlhPendudukk.47adb6d15c38c735a677.png",
+    "static/media/kkbru.png": "/tugass/static/media/kkbru.f1495b1d4236d738df3b.png",
     "static/media/hadiah.png": "/tugass/static/media/hadiah.5221fa171674b70cb617.png",
+    "static/media/pndudukkdsnn.png": "/tugass/static/media/pndudukkdsnn.32781545aba5318915af.png",
+    "static/media/genderPendudukk.png": "/tugass/static/media/genderPendudukk.9bef10b1b3afd9290fe5.png",
     "static/media/rafiki2.png": "/tugass/static/media/rafiki2.521bc0b25e52fc8b5aa2.png",
     "static/media/pre24.png": "/tugass/static/media/pre24.65bd94514288ddba3109.png",
     "static/media/baru.png": "/tugass/static/media/baru.7586e29518dc4a0d8551.png",
     "static/media/hm.png": "/tugass/static/media/hm.87198ca376d8478a59da.png",
+    "static/media/airbersihh.png": "/tugass/static/media/airbersihh.0d7f849d534f41ecc5c7.png",
     "index.html": "/tugass/index.html",
-    "main.32f49174.css.map": "/tugass/static/css/main.32f49174.css.map",
-    "main.40478858.js.map": "/tugass/static/js/main.40478858.js.map"
+    "main.038e254b.css.map": "/tugass/static/css/main.038e254b.css.map",
+    "main.3fc07c8c.js.map": "/tugass/static/js/main.3fc07c8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.32f49174.css",
-    "static/js/main.40478858.js"
+    "static/css/main.038e254b.css",
+    "static/js/main.3fc07c8c.js"
   ]
 }

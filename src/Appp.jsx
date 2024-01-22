@@ -8,6 +8,8 @@ import Sec from './Sec';
 import Login from './Login';
 import About from './About';
 import Home from './Home';
+import DashB from './DashB';
+import Datasource from './Datasource';
 export default function Appp() {
 const router=createBrowserRouter([
   {
@@ -19,7 +21,6 @@ const router=createBrowserRouter([
   return (
     <div>
     <BrowserRouter>
-    {/* <Router> */}
      <Routes >
         <Route exact path="/tugass" element={<Log/>} />
         <Route exact path="/tugass/login" element={<Login/>} />
@@ -27,6 +28,8 @@ const router=createBrowserRouter([
         <Route exact path='/tugass/*' element={<Eror/>} />
         <Route exact path='/tugass/aboutUs' element={<About/>} />
         <Route exact path='/tugass/home/home:1' element={<Home/>} />
+        <Route exact path='/tugass/dashboard' element={<DashB/>} />
+        <Route exact path='/tugass/datasource' element={<Datasource/>} />
         </Routes>
 
       

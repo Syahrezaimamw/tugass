@@ -11,6 +11,10 @@ export default function Log() {
         <br />
         hai
         <Link to='/tugass/home/home:1'>home</Link>
+        <br />
+        <Link to='/tugass/dashboard'>dashBoard</Link>
+        <br />
+        <Link to='/tugass/datasource'>dashBoard</Link>
     </div>
   )
 }

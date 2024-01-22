@@ -1,0 +1,154 @@
+.containerMenu {
+    transition: 1s;
+    width: 100%;
+    height: 100%;
+    background-color: #2A3042;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapperMenu {
+
+    width: 80%;
+    height: 100%;
+}
+
+.logoMenu {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.dataMenu {
+    width: 100%;
+    height: calc(100% - 70px);
+}
+
+.dataMenu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.dashboard {
+    padding: 20px 0px;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+
+}
+
+i {
+
+    display: flex;
+    align-items: center;
+    transition: 0.21s;
+}
+
+.containerMenu a {
+    transition: 0.21s;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+
+.data p {
+    transition: 0.21s;
+    margin-bottom: 20px;
+    font-size: 68%;
+    font-weight: 600;
+}
+
+.containerDash li:hover a,
+.containerDash li:hover i {
+    color: white;
+}
+
+.data a,
+.data ul li ,
+.dashboard a,
+.dashboard{
+
+    color:
+        #999fb1;
+}
+
+.containerDash li {
+    width: fit-content;
+}
+
+.data li {
+    margin: 20px 0px;
+}
+.putihh a {
+    color: white;
+}   
+.putihh i{
+    color: white;
+}
+.containerDash li:active{
+    transform: scale(0.99);
+}
+/* ===== */
+.containerNavbarMenu {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.wrapperNavbarMenu {
+    height: 100%;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuBar,
+.menuUser {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color:
+        #0B132A;
+}
+
+.menuBar i {
+    cursor: pointer;
+    font-size: 20px;
+    transition: 1s;
+    transform: rotateX(180deg);
+}
+
+.ktrUSer img {
+    width: 50%;
+}
+
+.ktrUSer {
+    display: flex;
+    height: 100%;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.ktrUSer p {
+    margin: 0px 10px 0px 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.ktrUSer i {
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.moon {
+    font-size: 22px;
+    transform: rotate(-15deg);
+}

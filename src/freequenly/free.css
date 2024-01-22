@@ -27,6 +27,7 @@
 box-shadow: 0px 0px 3px #b1b0b0;
     margin-bottom: 20px;
     transition: 0.5s;
+    /* background-color:red; */
 }
 .dataQuesDom{
     height: 157px;
@@ -61,7 +62,7 @@ box-shadow: 0px 0px 3px #b1b0b0;
 .ganti:hover{
     color: #2161D5;
 }
-.i:active{
+.ganti:active{
     color: #2161D5;
     transform: rotate(370deg);
 }
@@ -90,4 +91,7 @@ box-shadow: 0px 0px 3px #b1b0b0;
 }
 .wrapperFree button:hover{
     box-shadow: 0px 0px 5px #2161D5;
+}
+.ganti::selection{
+    background-color: transparent;
 }

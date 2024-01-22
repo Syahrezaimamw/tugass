@@ -1,13 +1,14 @@
 
 .containerNavbar{
     width: 100vw;
-    height: 80px;
-
     display: flex;
+    position: relative;
     align-items: end;
     justify-content: center;
 }
 .wrapperNavbar{
+    position: relative;
+    top: 15px;
     width: 73%;
     height: fit-content;
     display: flex;

@@ -20,7 +20,7 @@ const router=createBrowserRouter([
 ])
   return (
     <div>
-    <BrowserRouter>
+    <BrowserRouter basename='/tugass/'>
      <Routes >
         <Route exact path="/tugass" element={<Log/>} />
         <Route exact path="/tugass/login" element={<Login/>} />

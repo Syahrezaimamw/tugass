@@ -7,16 +7,16 @@ export default function Log() {
       <div className="containerSlice">
         <div className="pemisah">
         <h2>Tampilan Login</h2>
-        <Link to='/tugass/login'>klik to login</Link>
+        <Link to='/'>klik to login</Link>
         
         </div>
         <div className="pemisah">
         <h2>Landing Page</h2>
-        <Link to='/tugass/home/home:1'>Klik to home</Link>
+        <Link to='/home'>Klik to home</Link>
         <br />
-        <Link to='/tugass/aboutUs'>Klik to about</Link>
+        <Link to='/aboutUs'>Klik to about</Link>
         <br />
-        <Link to='/tugass/*'>klik to eror</Link>
+        <Link to='/*'>klik to eror</Link>
         <div className="notes">
         <h5>Notes:</h5>
           <p>Pada Page Home bagian <span>Frequenly Asked Questions</span> memiliki state yang dapat berkerja</p>
@@ -24,9 +24,9 @@ export default function Log() {
         </div>
         <div className="pemisah">
         <h2>Admin</h2>
-        <Link to='/tugass/dashboard'>klik to Dash Board</Link>
+        <Link to='/dashboard'>klik to Dash Board</Link>
         <br />
-        <Link to='/tugass/datasource'>klik to Data Source</Link>
+        <Link to='/datasource'>klik to Data Source</Link>
        
         <div className="notes">
           <h5>Notes:</h5>

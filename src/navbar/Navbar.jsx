@@ -19,12 +19,12 @@ function Biru (){
            
             <div className="navTengah">
                 <ul>
-                    <li><span><Link>Home</Link></span></li>
+                    <li><span><Link to='/tugass/home/home:1'>Home</Link></span></li>
                     <li><Link>Product</Link></li>
                     <li><Link>Blog</Link></li>
                     <li><Link>Pricing</Link></li>
                     <li><Link>Contact</Link></li>
-                    <li><Link>About Us</Link></li>
+                    <li><Link to='/tugass/aboutUs'>About Us</Link></li>
                     
                 </ul>
             </div>
@@ -44,12 +44,12 @@ function Putih(){
            
             <div className="navTengah">
                 <ul className='putih'>
-                    <li><Link>Home</Link></li>
+                    <li><Link to='/tugass/home/home:1'>Home</Link></li>
                     <li><Link>Product</Link></li>
                     <li><Link>Blog</Link></li>
                     <li><Link>Pricing</Link></li>
                     <li><Link>Contact</Link></li>
-                    <li><span><Link>About Us</Link></span></li>
+                    <li><span><Link to='/tugass/aboutUs'>About Us</Link></span></li>
                     
                 </ul>
             </div>

@@ -1,54 +1,176 @@
-.containerDash,.containerDataSource{
+.containerDash,
+.containerDataSource {
     width: 100%;
     background-color: #F5F6FA;
     display: flex;
 }
 
-.wrapperDash{
+.wrapperDash {
     height: 100%;
     width: 100%;
+    position: relative;
 }
-.menuu{
+.addData{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.25);
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.containerDash .addDataDom{
+    display: flex;
+}
+.boxAdd{
+    width: 40%;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: white;
+}
+.x,.formData,.PesanUserManagement,.canSub{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 10px;
+}
+.x,.canSub{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.x i{
+
+    font-size: 23px;
+    font-weight: 400;
+    color: #8697A8;
+    ;
+    cursor: pointer;
+}
+.x i:hover{
+    color: red;
+}
+.x i:active{
+    transform: scale(0.9);
+}
+.PesanUserManagement p{
+    font-size: 13px;
+    margin-top: 8px;
+    font-weight: 500;
+}
+.addData .formData label{
+    font-size: 14px;
+    font-weight: 500;
+    color: #44566C;
+}
+.formData{
+    margin-top: 20px;
+}
+.formData span{
+    color: 
+    #FD524E
+    ;
+}
+.formData input ,.formData select{
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 3px 0px 3px 8px;
+    height: 35px;
+    background-color:#F5F8FA;
+    border-radius: 5px
+    ;
+    border: none;
+    outline: none;
+}
+.formData input::placeholder{
+    color: #C8CFD8;
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+.formData select{
+    color: #C8CFD8;
+    height: 40px;
+    width: 100%;
+    border: none;
+  }
+  .canSub{
+    margin-top: 20px;
+  }
+.canSub button{
+    border: none;
+    padding: 10px 18px;
+    color: #44566C;
+    ;
+    background-color:#F5F8FA;
+    ;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.canSub button:nth-child(2){
+    background-color: #3A70D9;
+    color: white;
+    margin-left: 10px;
+}
+.menuu {
     width: 17%;
     display: block;
     transition: 0.4s;
-    background-color: aqua;
 }
-.menuuDom{
+
+.menuuDom {
     width: 0%;
 }
-.menuuDom li,.menuuDom a,.menuuDom p{
+
+.menuuDom li,
+.menuuDom a,
+.menuuDom p {
     transition: 0.1s;
     font-size: 0%;
 }
+
 /* === */
-.containerDataDash{
+.containerDataDash {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
+    /* background-color: red; */
 }
-.wrapDataDash{
+
+.wrapDataDash {
+
     width: 96.3%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
+    justify-content: space-between;
 }
-.statik{
+.wrapDataDash2{
+    height: 91.8vh;
+    
+}
+.statik {
     height: 100px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.house{ 
+
+.house {
     display: flex;
     align-items: center;
     margin-top: 10px;
 }
-.house p,.house i{
-    
+
+.house p,
+.house i {
+
     color: #8697A8;
     ;
     margin-right: 10px;
@@ -56,21 +178,22 @@
 
 /* .house */
 .house p {
-    font-size:14px ;
-    /* color: red; */
+    font-size: 14px;
     font-weight: 500;
 
 }
-.house i{
+
+.house i {
     font-size: 13px;
 }
-.house .bold{
-    color:#44556C;
+
+.house .bold {
+    color: #44556C;
     ;
     font-size: 15px;
 }
 
-.signOut{
+.signOut {
     height: 90%;
     width: 14%;
     display: flex;
@@ -80,7 +203,9 @@
     background-color: white;
     box-shadow: 0px 0px 5px #959798;
 }
-.profill,.signoutt{
+
+.profill,
+.signoutt {
     height: calc(100%/2);
     width: 80%;
 
@@ -88,51 +213,337 @@
     align-items: center;
 }
 
-.signOut i{
+.signOut i {
     font-size: 18px;
     margin-right: 10px;
     color: #44556C;
 }
-.signOut p{
+
+.signOut p {
     cursor: pointer;
     font-size: 15px;
     font-weight: 500;
 }
-.wrapperGambarrDash{
+
+.wrapperGambarrDash {
     width: 100%;
     height: 100%;
 }
-.parentGambar{
+
+.parentGambar {
     height: calc(100%/3);
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.parentGambar img{
+
+.parentGambar img {
     padding: 10px;
 }
 
-.parent1 img{
+.parent1 img {
     width: 47.5%;
     margin-bottom: 10px;
 }
 
-.parent2{
+.parent2 {
     padding: 0px;
     width: 100%;
     padding: 0px;
 }
-.parent2 img{
+
+.parent2 img {
     width: calc(100%/3);
     transform: scale(0.9);
     padding: 0px;
 }
-.parent1 ,.parent3{
+
+.parent1,
+.parent3 {
     padding: 0px 10px;
 }
-.parent3 .pndk{
+
+.parent3 .pndk {
     width: 31.3%;
 }
-.parent3 .pnjng{
+
+.parent3 .pnjng {
     width: 63.7%;
+}
+
+.balikkelement {
+    transform: rotate(180deg);
+}
+
+/* ======= */
+.isiDataSource {
+    width: 100%;
+    height: fit-content;
+    /* background-color: aqua; */
+}
+
+.userManagement {
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    margin-top: 18px;
+}
+
+.userManagement .one,
+.userManagement .two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userManagement .one {
+    align-items: start;
+}
+
+.seacrh {
+    display: flex;
+    background-color: white;
+    width: fit-content;
+    padding: 0px 10px;
+    box-shadow: 0px 0px 5px #bebfc0;
+    color: #4F5665;
+}
+
+.seacrh input {
+    padding: 10px 0px;
+    margin-left: 10px;
+    border: none;
+    color: #4F5665;
+    outline: none;
+
+}
+
+.seacrh input::placeholder {
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+.userManagement .two {
+
+    align-items: end;
+}
+
+.userManagement .two button {
+    background-color: #3A70D9;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 18px;
+    border-radius: 4px;
+}
+.two button:hover{
+    box-shadow: 0px 0px 3px #3A70D9;
+}
+.userManagement p {
+    font-size: 12px;
+    font-weight: 500;
+    color:
+        #4F5665;
+    letter-spacing: 1px;
+}
+
+.userManagement span {
+    color: black;
+}
+
+.dataUserM {
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+.kotakTampung {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 4px #bebfc0;
+    margin-bottom: 10px;
+}
+
+.name,
+.usename,
+.email,
+.gender,
+.update,
+.titik {
+    height: 100%;
+    padding: 8px 0px;
+}
+.name{
+    padding: 8px 0px 8px 8px;
+}
+.name,
+.usename,
+.email {
+    width: 21.8%;
+    display: flex;
+    align-items: center;
+}
+.name img {
+    width: 13%;
+    margin-right: 10px;
+}
+
+.gender {
+    width: 11%;
+}
+
+.update {
+    width: 15%;
+}
+
+.titik {
+    width: 7%;
+    position: relative;
+    display: flex;
+    /* font-size: 20px; */
+}
+.ktktp1 p{
+    font-size: 13px;
+    color: black;
+    font-weight: 600;
+    
+}
+.ktktp2 p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.remove{
+    height:30px ;
+    width: 75px;
+}
+.ktktp2 .titik p{
+    font-size: 20px;
+    width: fit-content;
+    color: black;
+    position: relative;
+    bottom: 4px;
+    cursor: pointer;
+    /* margin-bottom: 10px; */
+}
+.ktktp2 .titik p::selection{
+    background-color: transparent;
+}
+
+.kotakrel{
+    width: 120%;
+    height: 50px;
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 2px #959798;
+    top: -30%;
+    left: -100%;
+    position: absolute;
+    background-color: white;
+    padding: 5px 10px;
+    display: none;
+}
+.kotakrelDom{
+    display: block;
+}
+.edit,.delete{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 50%;
+    /* background-color: red; */
+}
+.ktktp2 .kotakrel p,.kotakrel i{
+    font-size: 13px;
+    color: #3F4254;
+    font-weight: 600;
+}
+.kotakrel p{
+    margin-top: 9px;
+    margin-left: 5px;
+}
+.containerSlace{
+    height: 126px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.show ,.next{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.next{
+    height: 85%;
+        margin-bottom: 20px;
+    justify-content: end;
+    align-items: end;
+}
+.show p{
+    font-size: 13px;
+    font-weight: 500;
+}
+.nextBtn{
+    height: 40px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    width: 208px;
+    display: flex;
+}
+.geser{
+    display: flex;
+    transition: 0.3s;
+}
+.hilang{
+    transform: translateX(40px);
+}
+.pilihan{
+    height: 100%;
+}
+.nextright{
+    height: 100%;
+    width: 120px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.kotakNext{
+    background-color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+}
+/* .pilihan:hover{
+    background-color: #3A70D9;
+    color: white;
+} */
+.duakotak{
+    height: 40px;
+    width: 5.9%;
+    background-color: white;
+    position: relative;
+    position: absolute;
+    right: 3.9%;
+    display: flex;
+}
+.nextright,.nextleft{
+    color: #4F5665;
+}
+.pilihan1{
+    background-color: #3A70D9;
+    color: white;
+
 }

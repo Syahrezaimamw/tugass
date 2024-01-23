@@ -1,0 +1,28 @@
+/* .containerSlice{
+    wid
+
+} */
+.containerSlice{
+    border: 1px solid black;
+    padding: 20px;
+    width: 30%;
+}
+.pemisah{
+    width: 85%;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+h5{
+    margin: 0px;
+}
+.pemisah p{
+    font-size: 14px;
+    color: rgb(40, 40, 40);
+}
+.notes{
+    margin-top: 5px;
+}
+.pemisah span{
+    font-weight: 500;
+    color: black;
+}

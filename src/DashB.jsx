@@ -5,7 +5,7 @@ import Navbarmenu from './menu/Navbarmenu'
 import { FaHouse } from "react-icons/fa6";
 import { FaAngleRight } from "react-icons/fa6";
 import { FaRegCircleUser } from "react-icons/fa6";
-import { FaArrowRightToBracket } from "react-icons/fa6";
+import { FaArrowRightFromBracket } from "react-icons/fa6";
 import jmlhPenduduk from'../src/image/jmlhPendudukk.png'
 import airbersih from'../src/image/airbersihh.png'
 import kkdusun from'../src/image/kkbru.png'
@@ -46,7 +46,7 @@ const DashB = () => {
                   <p>Profile</p>
                 </div>
                 <div className="signoutt">
-                  <i><FaArrowRightToBracket /></i>
+                  <i className='balikkelement'><FaArrowRightFromBracket /></i>
                   <p>Sign Out</p>
 
                 </div>

@@ -55,11 +55,9 @@ export default function Login() {
                        
                     </form>
                     </div>
-                    {/* <button> */}
-                        <Link to='/tugass/'>
+                        <Link to='/tugass/home/home:1'>
                             <button>Login</button>
                         </Link>
-                    {/* </button> */}
 
                 </div>
                 

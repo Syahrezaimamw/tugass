@@ -412,11 +412,6 @@
     box-shadow: 0px 0px 5px rgb(139, 139, 139);
 }
 
-.isiGm:hover {
-    box-shadow: 0px 0px 10px rgb(111, 110, 110) ;
-
-}
-
 .gmGambar {
     width: 70%;
     height: 200px;

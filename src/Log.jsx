@@ -7,7 +7,7 @@ export default function Log() {
       <div className="containerSlice">
         <div className="pemisah">
         <h2>Tampilan Login</h2>
-        <Link to='/'>klik to login</Link>
+        <Link to='/login'>klik to login</Link>
         
         </div>
         <div className="pemisah">

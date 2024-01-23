@@ -7,8 +7,8 @@ export default function Log() {
       <div className="containerSlice">
         <div className="pemisah">
         <h2>Tampilan Login</h2>
-        <Link to='/tugass/login'>klik to login</Link>
-        {/* <a href='/tugass/login'>klikk a</a> */}
+        {/* <Link to='/tugass/login'>klik to login</Link> */}
+        <a href='/tugass/login'>klikk a</a>
         </div>
         <div className="pemisah">
         <h2>Landing Page</h2>

@@ -44,12 +44,12 @@ function Putih(){
            
             <div className="navTengah">
                 <ul className='putih'>
-                    <li><Link to='/tugass/home/home:1'>Home</Link></li>
+                    <li><Link to='/home'>Home</Link></li>
                     <li><Link>Product</Link></li>
                     <li><Link>Blog</Link></li>
                     <li><Link>Pricing</Link></li>
                     <li><Link>Contact</Link></li>
-                    <li><span><Link to='/tugass/aboutUs'>About Us</Link></span></li>
+                    <li><span><Link to='/aboutUs'>About Us</Link></span></li>
                     
                 </ul>
             </div>

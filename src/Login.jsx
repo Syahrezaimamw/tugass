@@ -55,7 +55,7 @@ export default function Login() {
                        
                     </form>
                     </div>
-                        <Link to='/tugass/home/home:1'>
+                        <Link to='/home'>
                             <button>Login</button>
                         </Link>
 

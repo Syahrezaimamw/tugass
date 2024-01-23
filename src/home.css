@@ -106,12 +106,6 @@
 
 }
 
-.dataKotak:hover {
-
-    box-shadow: 0px 0px 7px #1650ba;
-    border: 2px solid #2161D5;
-}
-
 .dataKotak:nth-child(1) {
     border: 2px solid #2161D5;
 }

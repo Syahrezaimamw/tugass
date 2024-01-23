@@ -171,13 +171,14 @@ label span {
     align-items: center;
 }
 .inputTwo {
+    cursor: pointer;
     Width:
         18px;
     Height:
         18px;
         margin: 0px;
         margin-right: 10px;
-        accent-color: #9b59b6;
+        accent-color:#2161D5 ;
 }
 .menuLogin form .rm{
     font-size: 12px;
@@ -202,9 +203,6 @@ display: block;
 button:active{
     transform: scale(0.98);
 }
-/* input[type="checkbox"] {
-    background: #990000;    
-} */
 
 .containerEror{
     width: 100VW;

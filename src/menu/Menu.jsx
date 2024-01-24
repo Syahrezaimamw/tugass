@@ -23,7 +23,7 @@ const Menu = ({ds}) => {
                 <div className="dataMenu">
                     <div className="dashboard">
                     <ul>
-                        {ds=='ds'?  <li ><i>< FaGaugeSimpleHigh /></i> <Link to='/dashboard'> Dashboard</Link></li>: <li className='putihh'><i>< FaGaugeSimpleHigh /></i> <Link to='/tugass/dashboard'> Dashboard</Link></li>}
+                        {ds=='ds'?  <li ><i>< FaGaugeSimpleHigh /></i> <Link to='/dashboard'> Dashboard</Link></li>: <li className='putihh'><i>< FaGaugeSimpleHigh /></i> <Link to='/dashboard'> Dashboard</Link></li>}
                        
                     </ul>
                     </div>
@@ -42,7 +42,7 @@ const Menu = ({ds}) => {
                             <i>< FaServer /></i>
                             <Link>Data Set</Link>
                         </li>
-                        {ds=='ds'?<li className='putihh'><i>< FaDatabase /></i><Link to='/datasource'>Data Sourcee</Link></li>:<li><i>< FaDatabase /></i><Link to='/tugass/datasource'>Data Source</Link></li> }
+                        {ds=='ds'?<li className='putihh'><i>< FaDatabase /></i><Link to='/datasource'>Data Sourcee</Link></li>:<li><i>< FaDatabase /></i><Link to='/datasource'>Data Source</Link></li> }
                         <li>
                             <i>< FaWifi /></i>
                             <Link>Conection</Link>

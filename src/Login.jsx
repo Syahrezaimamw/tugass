@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom'
 import './all.css'
 import Logo from '../src/image/Logo.png'
 import LogoBulet from '../src/image/logoBulet.png'
+import { useState } from 'react'
 export default function Login() {
+            
     return (
         <div className='containerLogin'>
             <div className="logoLogin">
@@ -44,10 +46,10 @@ export default function Login() {
                     </div>
                     <div className="formm">                    <form action="">
                         <label htmlFor="userName">Username <span>*</span></label><br />
-                        <input className='inputOne'type="text" id='userName' name="userName" /><br />
+                        <input  className='inputOne'type="text" id='userName' name="userName" /><br />
                         <br />
                         <label htmlFor="password">Password <span>*</span></label><br />
-                        <input className='inputOne' type="text" id='password' name="password" /><br /><br />
+                        <input  className='inputOne' type="text" id='password' name="password" /><br /><br />
                         <div className="chek">                        <input className='inputTwo' type="checkbox" id='rememberme' name="rememberme"  value='remember'/>
                         <label className='rm' htmlFor="rememberme">Remember Me <span>*</span></label>
                         </div>
@@ -56,7 +58,7 @@ export default function Login() {
                     </form>
                     </div>
                         <Link to='/home'>
-                            <button>Login</button>
+                            <button type='submit'>Login</button>
                         </Link>
 
                 </div>

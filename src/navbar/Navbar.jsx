@@ -19,12 +19,12 @@ function Biru (){
            
             <div className="navTengah">
                 <ul>
-                    <li><span><Link to='/tugass/home/home:1'>Home</Link></span></li>
+                    <li><span><Link to='/home'>Home</Link></span></li>
                     <li><Link>Product</Link></li>
                     <li><Link>Blog</Link></li>
                     <li><Link>Pricing</Link></li>
                     <li><Link>Contact</Link></li>
-                    <li><Link to='/tugass/aboutUs'>About Us</Link></li>
+                    <li><Link to='/aboutUs'>About Us</Link></li>
                     
                 </ul>
             </div>

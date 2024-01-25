@@ -303,6 +303,7 @@
 }
 
 .seacrh {
+    cursor: pointer;
     display: flex;
     background-color: white;
     width: fit-content;
@@ -506,6 +507,9 @@
 .pilihan{
     height: 100%;
 }
+.nextright::selection .nextleft::selection{
+    background-color: transparent;
+}
 .nextright{
     height: 100%;
     width: 120px;
@@ -514,6 +518,7 @@
     justify-content: start;
     flex-wrap: wrap;
 }
+
 .kotakNext{
     background-color: white;
     border-radius: 5px;
@@ -541,6 +546,9 @@
 }
 .nextright,.nextleft{
     color: #4F5665;
+}
+.nextright::selection ,.nextleft::selection{
+    background-color: transparent;
 }
 .pilihan1{
     background-color: #3A70D9;

@@ -472,11 +472,12 @@ border: 2px solid #2161D5;
 .plansSell {
     width: 280px;
     border-radius: 10px;
-    height: 580px;
+    height: 620px;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0px 0px 5px #d2d3d5;
+    /* background-color: red; */
 }
 
 .wrapPLansSel {
@@ -501,18 +502,25 @@ ul {
     margin: 0px;
     padding: 0px;
 }
+.satuPlans ul{
+    /* background-color: red; */
+    margin-top: 25px;
+
+}
 
 .satuPlans h5 {
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .satuPlans li img {
-    margin-right: 31px;
+    margin-right: 39px;
     width: 21px;
 }
 
 .satuPlans li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-size: 12px;
     display: flex;
     font-weight: 500;
